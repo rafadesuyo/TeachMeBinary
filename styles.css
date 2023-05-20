@@ -100,3 +100,8 @@ span.title-3 {
   font-weight: bolder;
   display: block;
 }
+
+#numberToggle1 { /* This is hidding the number 1 at the start of the website so the user can toggle it off by clicking on the lamp*/
+  display:none;
+  z-index: 1; /*this will put the number in-front of the lamp */
+}
