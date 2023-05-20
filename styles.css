@@ -60,10 +60,15 @@ body {
   background-color: #131616;
   color: white;
   font-family: 'Roboto', sans-serif;
+  margin: auto;
+  width: 80%;
 }
 
 .italic {
   font-weight: 100;
+  padding-left: 15%;
+  padding-right: 15%;
+  text-align: center;
 }
 
 .center {
@@ -101,7 +106,46 @@ span.title-3 {
   display: block;
 }
 
+main{
+  text-align: center;
+  margin: auto;
+  width: 50%;
+}
+footer{
+  text-align: center;
+}
+
+.header-section{
+  text-align: center;
+  margin: auto;
+  width: 50%;
+}
+
+.separator{
+  background-image: linear-gradient(to right, rgba(37, 37, 37, 0.133),rgb(255, 255, 254),rgba(37, 37, 37, 0.133));
+margin: auto;
+height: 0.2vh;
+width: 25vw;
+margin-bottom: 10%;
+}
+
+h2{
+  font-size:xx-large;
+}
+
+.silver-box{
+  background-color: #323232;
+  border-radius: 20px;
+  margin-top: 5%;
+  padding: 3%;
+}
+
 #numberToggle1 { /* This is hidding the number 1 at the start of the website so the user can toggle it off by clicking on the lamp*/
   display:none;
   z-index: 1; /*this will put the number in-front of the lamp later*/
 }
+
+.text-svg{
+  z-index: 1;
+}
+
