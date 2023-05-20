@@ -1,8 +1,10 @@
 let currentNumber = 0 // we might need to track every single 0 and 1 value in the entire code later, this is tracking only the first 0
+const clickSound = new Audio("assets/click.mp3"); //this is a click sound for whenever the user clicks on the lamp
 
 function toggleLight() {
     const light = document.getElementById('light-example-1')
     const currentColor = light.getAttribute('fill')
+    clickSound.play();
     if (currentColor === '#272727') {
         light.setAttribute('fill', '#FFD542')
     } else {
