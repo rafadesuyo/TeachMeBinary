@@ -15,6 +15,8 @@ function toggleLight() {
     
     if(currentNumber == 0)
     {
+        //display none = invisible
+        //display block = visible
         number0.style.display = "none"
         number1.style.display = "block"
         currentNumber = 1
