@@ -4,7 +4,7 @@ const clickSound = new Audio("assets/click.mp3"); //this is a click sound for wh
 function toggleLight() {
     const light = document.getElementById('light-example-1')
     const currentColor = light.getAttribute('fill')
-    clickSound.play();
+    clickSound.play()
     if (currentColor === '#272727') {
         light.setAttribute('fill', '#FFD542')
     } else {
