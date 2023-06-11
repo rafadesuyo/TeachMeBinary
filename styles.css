@@ -57,18 +57,24 @@
 }
 
 body {
-  background-color: #131616;
+  background-color: #0C1016;
   color: white;
   font-family: 'Roboto', sans-serif;
   margin: auto;
   width: 80%;
 }
 
+h1{
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
+
 .italic {
   font-weight: 100;
-  padding-left: 15%;
-  padding-right: 15%;
+  margin-left: 15%;
+  margin-right: 15%;
   text-align: center;
+  margin-bottom: 5%;
 }
 
 .center {
@@ -126,8 +132,8 @@ footer{
 margin: auto;
 height: 0.2vh;
 width: 25vw;
-margin-bottom: 5%;
-margin-top: 5%;
+margin-bottom: 10%;
+margin-top: 10%;
 }
 
 h2{
@@ -135,7 +141,7 @@ h2{
 }
 
 .silver-box{
-  background-color: #323232;
+  background-color: #1C2025;
   border-radius: 20px;
   margin-top: 5%;
   padding: 3%;
