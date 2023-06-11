@@ -94,8 +94,8 @@ footer {
   margin: auto;
   height: 0.2vh;
   width: 25vw;
-  margin-bottom: 5%;
-  margin-top: 5%;
+  margin-bottom: 10%;
+  margin-top: 10%;
 }
 
 h2{
@@ -103,7 +103,7 @@ h2{
 }
 
 .silver-box{
-  background-color: #323232;
+  background-color: #1C2025;
   border-radius: 20px;
   margin-top: 5%;
   padding: 3%;

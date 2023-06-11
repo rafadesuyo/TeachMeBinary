@@ -5,10 +5,10 @@ function toggleLight() {
     const light = document.getElementById('light-example-1')
     const currentColor = light.getAttribute('fill')
     clickSound.play()
-    if (currentColor === '#272727') {
+    if (currentColor === '#0C1016') {
         light.setAttribute('fill', '#FFD542')
     } else {
-        light.setAttribute('fill', '#272727')
+        light.setAttribute('fill', '#0C1016')
     }
 
     //switching the numbers
