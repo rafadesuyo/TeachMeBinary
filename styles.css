@@ -37,38 +37,38 @@ section {
 /* title */
 .header-title {
   height: 50vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
-/*h1 {
+h1 {
   margin: 0;
-  vertical-align: middle;
-}*/
-
-.f-right {
-  float: right;
+  display: flex;
+  flex-wrap: wrap;
 }
 
-.f-left {
-  float: left;
-}
-
-span.title-1 {
+span.title-1 { /* teach */
   font-weight: bolder;
-  display: block;
+  flex-basis: 50%;
   text-align: right;
 }
 
-span.title-2 {
+span.title-2 { /* me */
   font-weight: lighter;
-  display: block;
-  text-align: right;
   color: #b1b1b1;
+  text-align: right;
+  flex-basis: 50%;
 }
 
-span.title-3 {
+span.title-3 { /* binary */
   font-weight: bolder;
-  display: block;
+  flex-basis: 50%;
   text-align: left;
+}
+
+.title-filler {
+  flex-basis: 50%;
 }
 
 .header-content {
