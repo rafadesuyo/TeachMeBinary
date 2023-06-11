@@ -1,7 +1,124 @@
+/* STRUCTURE */
 * {
   box-sizing: border-box;
 }
 
+html {
+  font-family: 'Roboto', sans-serif;
+  scroll-snap-type: y mandatory;
+  scroll-snap-points-y: repeat(100vh);
+  background-color: #131616;
+  color: white;
+}
+
+header {
+  padding: 1rem;
+  height: 100vh;
+  scroll-snap-align: start;
+  text-align: center;
+  position: relative;
+  font-size: calc(1rem + 1vw);
+}
+
+main {
+  margin: auto;
+  width: 50%;
+}
+
+section {
+  padding: 1rem;
+  height: 100vh;
+  scroll-snap-align: start;
+  text-align: center;
+  position: relative;
+}
+
+/* INDIVIDUAL ELEMENTS */
+/* title */
+.f-right {
+  float: right;
+}
+
+.f-left {
+  float: left;
+}
+
+span.title-1 {
+  font-weight: bolder;
+  display: block;
+  text-align: right;
+}
+
+span.title-2 {
+  font-weight: lighter;
+  display: block;
+  text-align: right;
+  color: #b1b1b1;
+}
+
+span.title-3 {
+  font-weight: bolder;
+  display: block;
+  text-align: left;
+}
+
+.header-content {
+  text-align: center;
+  margin: auto;
+  width: 50%;
+  font-size: 2vw;
+}
+
+/* others */
+.italic {
+  font-weight: 100;
+  padding-left: 15%;
+  padding-right: 15%;
+  text-align: center;
+}
+
+.center {
+  margin: auto;
+}
+
+
+
+footer {
+  text-align: center;
+}
+
+
+
+.separator {
+  background-image: linear-gradient(to right, rgba(37, 37, 37, 0.133),rgb(255, 255, 254),rgba(37, 37, 37, 0.133));
+  margin: auto;
+  height: 0.2vh;
+  width: 25vw;
+  margin-bottom: 5%;
+  margin-top: 5%;
+}
+
+h2{
+  font-size:xx-large;
+}
+
+.silver-box{
+  background-color: #323232;
+  border-radius: 20px;
+  margin-top: 5%;
+  padding: 3%;
+}
+
+#numberToggle1 { /* This is hidding the number 1 at the start of the website so the user can toggle it off by clicking on the lamp*/
+  display:none;
+  z-index: 1; /*this will put the number in-front of the lamp later*/
+}
+
+.text-svg{
+  z-index: 1;
+}
+
+/* 12 column grid */
 .row::after {
   content: "";
   clear: both;
@@ -55,98 +172,3 @@
 .col-12 {
   width: 100%;
 }
-
-body {
-  background-color: #131616;
-  color: white;
-  font-family: 'Roboto', sans-serif;
-  margin: auto;
-  width: 80%;
-}
-
-.italic {
-  font-weight: 100;
-  padding-left: 15%;
-  padding-right: 15%;
-  text-align: center;
-}
-
-.center {
-  margin: auto;
-}
-
-.title {
-  text-align: center;
-}
-
-.f-right {
-  float: right;
-}
-
-.f-left {
-  float: left;
-}
-
-span.title-1 {
-  color: white;
-  font-weight: bolder;
-  display: block;
-  text-align: right;
-}
-
-span.title-2 {
-  font-weight: lighter;
-  display: block;
-  text-align: right;
-  color: #b1b1b1;
-}
-
-span.title-3 {
-  font-weight: bolder;
-  display: block;
-}
-
-main{
-  text-align: center;
-  margin: auto;
-  width: 50%;
-}
-footer{
-  text-align: center;
-}
-
-.header-section{
-  text-align: center;
-  margin: auto;
-  width: 50%;
-}
-
-.separator{
-  background-image: linear-gradient(to right, rgba(37, 37, 37, 0.133),rgb(255, 255, 254),rgba(37, 37, 37, 0.133));
-margin: auto;
-height: 0.2vh;
-width: 25vw;
-margin-bottom: 5%;
-margin-top: 5%;
-}
-
-h2{
-  font-size:xx-large;
-}
-
-.silver-box{
-  background-color: #323232;
-  border-radius: 20px;
-  margin-top: 5%;
-  padding: 3%;
-}
-
-#numberToggle1 { /* This is hidding the number 1 at the start of the website so the user can toggle it off by clicking on the lamp*/
-  display:none;
-  z-index: 1; /*this will put the number in-front of the lamp later*/
-}
-
-.text-svg{
-  z-index: 1;
-}
-
