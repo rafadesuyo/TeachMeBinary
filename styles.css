@@ -23,7 +23,7 @@ header {
 
 main {
   margin: auto;
-  width: 50%;
+  width: 60%;
 }
 
 section {
@@ -33,12 +33,15 @@ section {
   position: relative;
 }
 
-/* INDIVIDUAL ELEMENTS */
+/*
+ * INDIVIDUAL ELEMENTS
+ */
+
 /* title */
 .header-title {
-  height: 50vh;
+  height: 30vh;
   display: flex;
-  align-items: center;
+  align-items: flex-end;
   justify-content: center;
 }
 
@@ -72,24 +75,23 @@ span.title-3 { /* binary */
 }
 
 .header-content {
+  height: 30vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   text-align: center;
   margin: auto;
-  width: 50%;
-  font-size: 2vw;
-  height: 30vh;
+  width: 60%;
 }
 
 .header-separator {
   background-image: linear-gradient(to right, rgba(37, 37, 37, 0.133),rgb(255, 255, 254),rgba(37, 37, 37, 0.133));
   margin: auto;
   height: 0.2vh;
-  width: 25vw;
-  /*margin-bottom: 10%;
-  margin-top: 10%;*/
-  height: 20vh;
+  width: 35vw;
 }
 
-/* others */
+/* content sections */
 .italic {
   font-weight: 100;
   padding-left: 15%;
@@ -100,16 +102,6 @@ span.title-3 { /* binary */
 .center {
   margin: auto;
 }
-
-
-
-footer {
-  text-align: center;
-}
-
-
-
-
 
 h2{
   font-size:xx-large;
@@ -129,6 +121,11 @@ h2{
 
 .text-svg{
   z-index: 1;
+}
+
+/* footer */
+footer {
+  text-align: center;
 }
 
 /* 12 column grid */
