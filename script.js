@@ -1,5 +1,12 @@
-let currentNumber = 0 // we might need to track every single 0 and 1 value in the entire code later, this is tracking only the first 0
-const clickSound = new Audio("assets/click.mp3"); //this is a click sound for whenever the user clicks on the lamp
+
+//Down bellow are the number of each lamp, lamps are divided by section name.
+let whatIsBinaryLamp = 0
+
+//Todo add other lamps down here
+
+
+//this is a click sound for whenever the user clicks on a lamp
+const clickSound = new Audio("assets/click.mp3"); 
 
 function toggleLight() {
     const light = document.getElementById('light-example-1')
@@ -15,19 +22,19 @@ function toggleLight() {
     const number0 = document.getElementById('numberToggle0')
     const number1 = document.getElementById('numberToggle1')
     
-    if(currentNumber == 0)
+    if(whatIsBinaryLamp == 0)
     {
         //display none = invisible
         //display block = visible
         number0.style.display = "none"
         number1.style.display = "block"
-        currentNumber = 1
+        whatIsBinaryLamp = 1
     }
-    else if(currentNumber == 1)
+    else if(whatIsBinaryLamp == 1)
     {
         number1.style.display = "none"
         number0.style.display = "block"
-        currentNumber = 0
+        whatIsBinaryLamp = 0
     }
     
 }
