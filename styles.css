@@ -87,6 +87,8 @@ span.title-3 { /* binary */
   width: 60%;
 }
 
+
+
 .header-separator {
   background-image: linear-gradient(to right, rgba(37, 37, 37, 0.133),rgb(255, 255, 254),rgba(37, 37, 37, 0.133));
   margin: auto;
@@ -122,10 +124,6 @@ h2{
   scroll-snap-align: center; /*This will center the snap to this content, putting it on the center */
 }
 
-#numberToggle1 { /* This is hidding the number 1 at the start of the website so the user can toggle it off by clicking on the lamp*/
-  display:none;
-  z-index: 1; /*this will put the number in-front of the lamp later*/
-}
 
 .text-svg{
   z-index: 1;

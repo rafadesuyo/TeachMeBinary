@@ -1,6 +1,20 @@
 
-//Down bellow are the number of each lamp, lamps are divided by section name.
+//Lamps bellow are divided by section name.
+
+//What is binary lamp.
 let whatIsBinaryLamp = 0
+
+//Combine multiple lamps
+let combineLamp1 = 0
+let combineLamp2 = 0
+
+//Test you knowledge lamps
+let testLamp1 = 0
+let testLamp2 = 0
+let testLamp3 = 0
+let testLamp4 = 0
+
+//
 const light = document.getElementById('light-example-1')
 const currentColor = light.getAttribute('fill')
 const number0 = document.getElementById('numberToggle0')
