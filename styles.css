@@ -30,9 +30,11 @@ main {
 
 section {
   height: 100vh;
-  scroll-snap-align: start;
+ 
+  scroll-snap-type: y mandatory;
   text-align: center;
   position: relative;
+  
 }
 
 /*
@@ -90,6 +92,7 @@ span.title-3 { /* binary */
   background-image: linear-gradient(to right, rgba(37, 37, 37, 0.133),rgb(255, 255, 254),rgba(37, 37, 37, 0.133));
   margin: auto;
   margin-top: 5%;
+  margin-bottom: 5%;
   height: 0.2vh;
   width: 35vw;
 }
@@ -108,6 +111,7 @@ span.title-3 { /* binary */
 
 h2{
   font-size:xx-large;
+  
 }
 
 .silver-box{
@@ -115,6 +119,7 @@ h2{
   border-radius: 20px;
   margin-top: 5%;
   padding: 3%;
+  scroll-snap-align: center; /*This will center the snap to this content, putting it on the center */
 }
 
 #numberToggle1 { /* This is hidding the number 1 at the start of the website so the user can toggle it off by clicking on the lamp*/
