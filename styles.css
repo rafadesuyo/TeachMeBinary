@@ -19,12 +19,14 @@ header {
   text-align: center;
   position: relative;
   font-size: calc(1rem + 1vw);
+  background-color: 1E1F1E;
 }
 
 main {
   margin: auto;
   width: 60%;
 }
+
 
 section {
   height: 100vh;
@@ -87,6 +89,7 @@ span.title-3 { /* binary */
 .header-separator {
   background-image: linear-gradient(to right, rgba(37, 37, 37, 0.133),rgb(255, 255, 254),rgba(37, 37, 37, 0.133));
   margin: auto;
+  margin-top: 5%;
   height: 0.2vh;
   width: 35vw;
 }
