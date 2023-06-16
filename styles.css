@@ -30,7 +30,6 @@ main {
 
 section {
   height: 100vh;
- 
   scroll-snap-type: y mandatory;
   text-align: center;
   position: relative;
@@ -113,6 +112,7 @@ h2{
   font-size:xx-large;
   
 }
+
 
 .silver-box{
   background-color: #1C2025;
