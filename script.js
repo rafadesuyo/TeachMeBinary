@@ -1,4 +1,3 @@
-
 //Lamps bellow are divided by section name.
 
 //What is binary lamp.
@@ -19,15 +18,14 @@ const light = document.getElementById('light-example-1')
 const currentColor = light.getAttribute('fill')
 const number0 = document.getElementById('numberToggle0')
 
-//Todo add other lamps down here
 
 
 //this is a click sound for whenever the user clicks on a lamp
 const clickSound = new Audio("assets/click.mp3"); 
 
 function toggleLight() {
-    const currentColor = light.getAttribute('fill')
-    clickSound.play()
+    const currentColor = light.getAttribute('fill');
+    clickSound.play();
     if (currentColor === '#0C1016') {
         light.setAttribute('fill', '#FFD542');
     }else{
@@ -45,4 +43,12 @@ function toggleLight() {
         whatIsBinaryLamp = 0;
     }
     
+}
+
+function toggleLamp(color, id)
+{
+    color = document.getElementById(id);
+    color.setAttribute('fill', '#FFD542');
+    clickSound.play();
+
 }
